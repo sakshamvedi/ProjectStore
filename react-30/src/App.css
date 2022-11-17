@@ -1,0 +1,302 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform-origin: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    transform-origin: 100%;
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #282c34;
+}
+
+
+.upper{
+  width: 100%;
+  height: 60vh;
+  box-shadow: rgb(1, 124, 255) 0px 20px 30px -10px;
+  transition: 1.5s;
+}
+.angrymood{
+  width: 100%;
+  height: 60vh;
+  box-shadow: rgb(232, 75, 3) 0px 20px 30px -19px;
+  transition: 1.5s;
+}
+.sadmod{
+  width: 100%;
+  height: 60vh;
+  box-shadow: rgb(255, 255, 255) 0px 20px 30px -19px;
+  transition: 1.5s;
+}
+
+.img
+{
+  width: 100%;
+  height: 60vh; 
+}
+.avatar{
+  height: 5%;
+  width: 5%;
+  border-radius: 50%;
+}
+.profile{
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+.profile h1{
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.profile p1{
+ 
+  font-weight: 300;
+  font-size: 25px;
+}
+
+
+.neonText {
+  color: white  ;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.centertext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+ 
+}
+.centertext h1{
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #fff;
+  padding: 15px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+.mood
+{
+  position: absolute;
+  top: 1%;
+  left: 90%;
+}
+.centertext select{
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+   height: 20px;
+   width: 40px;
+   border-radius: 20px;
+}
+
+.bodyhead p1{
+  opacity: 0.6;
+  margin-left: 2%;
+}
+
+.cards{
+  margin-left: 6%;
+  margin-top: 5%;
+  margin-bottom: 50px;
+  background-color: #040e66;
+  height: 400px;
+  width: 300px;
+  border-bottom-left-radius: 5vh;
+  border-bottom-right-radius: 5vh;
+  transform: 0.5s;
+  
+}
+.cards img{
+  height: 50vh;
+  width: 100%;
+}
+
+.cards:hover{
+  transform: rotate(1deg);
+
+  box-shadow: rgb(66, 152, 245) 0px 20px 30px -10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+.compo{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.compo p1{
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: 'Delius Swash Caps', cursive;
+
+}
+
+.playbtn{
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+ 
+  background-color: #e4cbf4;
+  border-radius: 50%;
+}
+.playbtn img{
+   height: 30px;
+   width: 30px;
+   position: relative;
+   top: 20%;
+   left: 22%;
+   
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  height: 70vh;
+  width: 60vw;
+  
+   
+
+}
+.clock{
+ 
+  position: relative;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  border: 2px solid;
+  border-color: black;
+  background-color: black;
+  box-shadow: rgba(255, 255, 255, 0.25) 50px 50px 100px -20px, rgba(255, 255, 255, 0.3) -50px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px 2px 6px 0px ;
+
+}
+.minute{
+  background-color: white;
+  height:135px;
+  width: 5px;
+  top: 8%;
+  position: absolute;
+  transform: 0.5s;
+  transform-origin: bottom;
+    left: 50%;
+    border-radius: 50px;
+}
+.hours{
+  background-color: white;
+  height: 100px;
+  width: 7px;
+  position: absolute;
+  top: 19%;
+  left: 48%;
+  border-radius: 50px;
+ 
+transform-origin: bottom;
+}
+.seconds{
+  background-color: green;
+  height: 170px;
+  width: 2px;
+  position: absolute;
+  border-radius: 50px;
+  left: 50%;
+ 
+transform-origin: bottom;
+}
+
+.clock p1{
+  color:white;
+  position: absolute;
+  top: 70%;
+  left: 38%;
+  opacity: 0.7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.clock p2{
+  color:white;
+  position: absolute;
+  top: 77%;
+  left: 42%;
+  opacity: 0.7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.clock svg{
+  color:white;
+  position: absolute;
+  top: 77%;
+  left: 30%;
+  opacity: 0.7;
+  height: 20px;
+}
+.circles{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  left: 48%;
+  top: 40%;
+}
