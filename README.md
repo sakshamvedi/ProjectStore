@@ -11,4 +11,8 @@ A Analog Smart Watch :- <a href= "https://analogyclock.netlify.app/"> Live Previ
 
 # 3. Desginer
 
-A Analog Smart Watch :- <a href= "https://desginer.netlify.app/"> Live Preview Link </a>
+For Desgining Cards  :- <a href= "https://desginer.netlify.app/"> Live Preview Link </a>
+
+
+# 4. Gallery (Animated) 
+Gallery of Imagess :- <a href= "https://whimsical-strudel-5beb62.netlify.app/"> Live Preview Link </a>
