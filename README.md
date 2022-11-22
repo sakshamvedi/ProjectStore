@@ -15,4 +15,4 @@ For Desgining Cards  :- <a href= "https://desginer.netlify.app/"> Live Preview L
 
 
 # 4. Gallery (Animated) 
-Gallery of Imagess :- <a href= "https://whimsical-strudel-5beb62.netlify.app/"> Live Preview Link </a>
+Gallery of Images :- <a href= "https://whimsical-strudel-5beb62.netlify.app/"> Live Preview Link </a>
